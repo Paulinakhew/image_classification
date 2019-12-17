@@ -1,1 +1,1 @@
-# ml_identify_apparel
+# image_classification
