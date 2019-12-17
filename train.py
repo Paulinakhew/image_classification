@@ -21,9 +21,13 @@ Current nesting system:
     ├── test
     └── test.csv
 
-Formatting of csv files:
+Formatting of training csv file:
 filename,label
 where filename is the name of the photo and label is an int showing the category
+
+Formatting of testing csv file:
+id
+where id is the name of them image represented by an integer
 '''
 # read the train csv file using pandas
 train = pd.read_csv('training/train.csv')
