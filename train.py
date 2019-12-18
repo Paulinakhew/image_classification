@@ -55,10 +55,10 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, random_state=42, test_
 model = Sequential()
 
 # convolution
-model.add(Conv2D(32, kernel_size=(3, 3),activation='relu',input_shape=(28,28,1)))
+model.add(Conv2D(32, kernel_size=(3, 3), activation='relu', input_shape=(28, 28, 1)))
 model.add(Conv2D(64, (3, 3), activation='relu'))
 
-# pooking
+# pooling
 model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Dropout(0.25))
 
