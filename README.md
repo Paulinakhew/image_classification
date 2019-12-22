@@ -3,6 +3,7 @@
 This repo creates an image classification model in the form of an h5py file. 
 
 ### Current nesting system:
+```
 .
 ├── training
 │   ├── train
@@ -10,6 +11,7 @@ This repo creates an image classification model in the form of an h5py file.
 └── testing
     ├── test
     └── test.csv
+```
 
 Formatting of training csv file:
 filename,label
