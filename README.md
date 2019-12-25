@@ -21,3 +21,6 @@ Formatting of testing csv file:
 id
 where id is the name of them image represented by an integer. This is to get the prediction.
 *Optional*: you could add a column to the sample df that writes the proper classification
+
+### How to Run
+Put your training files into the train directory and classify the images in the train.csv file.
